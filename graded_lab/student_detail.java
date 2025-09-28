@@ -18,7 +18,7 @@ public class student_detail extends JFrame {
         setSize(1000, 1000);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // Center the frame
-        setLayout(new GridLayout(8, 2, 10, 10)); // Grid layout for form
+        setLayout(new GridLayout(6, 3, 50, 5)); // Grid layout for form
 
         // Initialize components
         JLabel nameLabel = new JLabel("Name:");
